@@ -1,9 +1,9 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { motion, useInView, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import {
   ChevronDown,
   ArrowRight,
@@ -101,6 +101,41 @@ const whyUs = [
     icon: MapPin,
     title: "Local Expertise",
     body: "Deep roots in Kenyan aquaculture — we know the terrain, regulations, and market.",
+  },
+];
+
+const heroImages = [
+  {
+    src: "https://images.pexels.com/photos/36618323/pexels-photo-36618323.jpeg",
+    alt: "Fish farmer harvesting tilapia in Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/36386087/pexels-photo-36386087.jpeg",
+    alt: "Farmer harvesting tilapia from a pond in Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/20831368/pexels-photo-20831368.jpeg",
+    alt: "Tilapia fish pond aquaculture Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/29994589/pexels-photo-29994589.jpeg",
+    alt: "Aquaculture pond Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/35030993/pexels-photo-35030993.jpeg",
+    alt: "Fish farming Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/35096090/pexels-photo-35096090.jpeg",
+    alt: "Greenhouse farming Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/10606633/pexels-photo-10606633.jpeg",
+    alt: "Irrigation drip line Kenya",
+  },
+  {
+    src: "https://images.pexels.com/photos/37314878/pexels-photo-37314878.jpeg",
+    alt: "Fish farming pond",
   },
 ];
 
@@ -258,6 +293,18 @@ export default function HeroSection() {
   const whyInView = useInView(whyRef, { once: true, amount: 0.25 });
   const ctaInView = useInView(ctaRef, { once: true, amount: 0.3 });
 
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isActive, setIsActive] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (isActive) {
+        setCurrentImage((prev) => (prev + 1) % heroImages.length);
+      }
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [isActive]);
+
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start start", "end start"],
@@ -273,13 +320,23 @@ export default function HeroSection() {
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
       >
         <motion.div className="absolute inset-0" style={{ y: heroY }}>
-          <Image
-            src="https://images.pexels.com/photos/36618323/pexels-photo-36618323.jpeg"
-            alt="Fish farmer harvesting tilapia in Kenya"
-            fill
-            className="object-cover object-center scale-105"
-            priority
-          />
+          {heroImages.map((img, i) => (
+            <motion.div
+              key={img.src}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: i === currentImage ? 1 : 0 }}
+              transition={{ duration: 1.2, ease: "easeInOut" }}
+              className="absolute inset-0"
+            >
+              <Image
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover object-center scale-105"
+                priority={i === 0}
+              />
+            </motion.div>
+          ))}
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
           <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-black/70 to-transparent" />
           <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-[#00b4d8]/15 to-transparent" />

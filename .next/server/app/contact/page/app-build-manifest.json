@@ -1,0 +1,25 @@
+{
+  "pages": {
+    "/contact/page": [
+      "static/chunks/[root-of-the-server]__121054bf._.css",
+      "static/chunks/fc6fe_next_dist_e7baddf1._.js",
+      "static/chunks/app_layout_tsx_3229071f._.js",
+      "static/chunks/fc6fe_next_dist_client_components_builtin_global-error_e9ffc9e0.js",
+      "static/chunks/_fd28a92f._.js",
+      "static/chunks/fc6fe_next_afffef6a._.js",
+      "static/chunks/25c97_motion-dom_dist_es_e6629c09._.js",
+      "static/chunks/5a847_framer-motion_dist_es_68072ba5._.js",
+      "static/chunks/node_modules__pnpm_54c63adf._.js",
+      "static/chunks/app_contact_page_tsx_e9ffc9e0._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_b32d126a._.js",
+      "static/chunks/fc6fe_next_dist_compiled_react-dom_73b2b3d9._.js",
+      "static/chunks/fc6fe_next_dist_compiled_next-devtools_index_c95a70f8.js",
+      "static/chunks/fc6fe_next_dist_compiled_de9b514b._.js",
+      "static/chunks/fc6fe_next_dist_client_c5b54b5f._.js",
+      "static/chunks/fc6fe_next_dist_c844b039._.js",
+      "static/chunks/69652_@swc_helpers_cjs_77b72907._.js",
+      "static/chunks/_a0ff3932._.js",
+      "static/chunks/turbopack-_026c5697._.js"
+    ]
+  }
+}

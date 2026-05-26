@@ -1,7 +1,9 @@
 @import "tailwindcss";
+
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Jost", ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, monospace;
+
   --color-primary: #1e1e6e;
   --color-primary-light: #2a2a8a;
   --color-primary-dark: #151554;
@@ -28,10 +30,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Hide scrollbar cross-browser */
 .scrollbar-hide {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
 }
 .scrollbar-hide::-webkit-scrollbar {
-  display: none;
+  display: none; /* Chrome/Safari/Opera */
 }
