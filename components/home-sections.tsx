@@ -106,36 +106,36 @@ const whyUs = [
 
 const heroImages = [
   {
-    src: "https://images.pexels.com/photos/36618323/pexels-photo-36618323.jpeg",
-    alt: "Fish farmer harvesting tilapia in Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%282%29-BE1pYLURdl2B1tW7dkKjU1rFPmJM2T.jpeg",
+    alt: "Fish pond construction in Kenya",
   },
   {
-    src: "https://images.pexels.com/photos/36386087/pexels-photo-36386087.jpeg",
-    alt: "Farmer harvesting tilapia from a pond in Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg",
+    alt: "Fish farming operations in Kenya",
   },
   {
-    src: "https://images.pexels.com/photos/20831368/pexels-photo-20831368.jpeg",
-    alt: "Tilapia fish pond aquaculture Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.02-rlUKEtmaoYDFLmGpInNouhlK18joBt.jpeg",
+    alt: "Drip irrigation system installation",
   },
   {
-    src: "https://images.pexels.com/photos/29994589/pexels-photo-29994589.jpeg",
-    alt: "Aquaculture pond Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.03%20%281%29-RRycqnJlyAa0h0YVvOqVLvpc4wdZHg.jpeg",
+    alt: "Greenhouse construction in Kenya",
   },
   {
-    src: "https://images.pexels.com/photos/35030993/pexels-photo-35030993.jpeg",
-    alt: "Fish farming Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.14.59-mad64z54oKhUWEj4LdDaKwNK06JYDe.jpeg",
+    alt: "Fish harvest and market preparation",
   },
   {
-    src: "https://images.pexels.com/photos/35096090/pexels-photo-35096090.jpeg",
-    alt: "Greenhouse farming Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.06%20%282%29-JmmTVNTU6EMrfa39JoIA92mQ1lTcbc.jpeg",
+    alt: "Team working in greenhouse facility",
   },
   {
-    src: "https://images.pexels.com/photos/10606633/pexels-photo-10606633.jpeg",
-    alt: "Irrigation drip line Kenya",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg",
+    alt: "Fish breeding and aquaculture operations",
   },
   {
-    src: "https://images.pexels.com/photos/37314878/pexels-photo-37314878.jpeg",
-    alt: "Fish farming pond",
+    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.00-VZgsNjNuW99H7L5vdlnxJzDo7IGNNp.jpeg",
+    alt: "Catfish and fish species farming",
   },
 ];
 
@@ -450,19 +450,14 @@ export default function HeroSection() {
                 About Timwa Fisheries
               </div>
               <h2 className="text-3xl md:text-4xl font-black text-[#1e1e6e] mb-5 leading-tight">
-                Pioneering Sustainable Fish Farming in Kenya
+                Building Thriving Fish Farms Across Kenya
               </h2>
               <div className="w-16 h-1.5 bg-gradient-to-r from-[#00b4d8] to-[#48cae4] rounded-full mb-6" />
               <p className="text-gray-600 leading-relaxed mb-5">
-                Timwa Fisheries, founded by{" "}
-                <strong className="text-[#1e1e6e]">Martin Nguri</strong>, is a
-                professional aquaculture company dedicated to supporting sustainable
-                fish farming through modern technologies, quality supplies, and
-                expert consultancy services.
+                Timwa Fisheries was born from real farming experience. We&apos;ve built hundreds of fish ponds across Kenya—from Kisii to Nakuru, Murang&apos;a to Kajiado. Every project taught us what works in our climate, soil, and water conditions.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
-                We work with fish farmers, institutions, cooperatives, and commercial
-                investors across Kenya to improve fish production and profitability.
+                Today, we partner with individual farmers, cooperatives, and commercial operations to turn land into productive aquaculture systems. Whether it&apos;s a half-hectare family pond or a 5-pond cooperative venture, we handle the design, construction, training, and market connections.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -494,8 +489,8 @@ export default function HeroSection() {
               <div className="grid grid-cols-2 gap-3">
                 <div className="rounded-3xl overflow-hidden h-64 shadow-xl">
                   <Image
-                    src="https://images.pexels.com/photos/36386087/pexels-photo-36386087.jpeg"
-                    alt="Farmer harvesting tilapia from a pond in Kenya"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg"
+                    alt="Fish farming work in progress"
                     width={300}
                     height={256}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
@@ -503,8 +498,8 @@ export default function HeroSection() {
                 </div>
                 <div className="rounded-3xl overflow-hidden h-64 shadow-xl mt-8">
                   <Image
-                    src="https://images.pexels.com/photos/20831368/pexels-photo-20831368.jpeg"
-                    alt="Tilapia fish pond aquaculture Kenya"
+                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg"
+                    alt="Fish breeding and production"
                     width={300}
                     height={256}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
@@ -541,11 +536,10 @@ export default function HeroSection() {
               What We Do
             </div>
             <h2 className="text-3xl md:text-4xl font-black text-[#1e1e6e] mb-4 leading-tight">
-              Complete Aquaculture Solutions
+              Everything for Your Fish Farm
             </h2>
             <p className="text-gray-500 leading-relaxed">
-              From pond construction to training — all the services you need to
-              start and scale your fish farming business in Kenya.
+              From site selection and pond construction to harvesting and market sales—we provide complete aquaculture services designed for Kenya&apos;s climate and conditions.
             </p>
           </motion.div>
 

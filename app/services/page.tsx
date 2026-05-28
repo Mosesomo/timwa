@@ -28,10 +28,9 @@ const allServices = [
     title: "Fish Pond Construction",
     shortDesc: "Expert pond construction services",
     fullDesc:
-      "We specialise in constructing all types of fish ponds — earthen, concrete, lined, circular tanks, and raised ponds. Our expert team handles everything from site assessment to final handover.",
+      "We specialise in constructing all types of fish ponds — earthen, concrete, lined, circular tanks, and raised ponds. Our expert team handles everything from site assessment to first harvest.",
     features: ["Earthen fish ponds", "Concrete fish ponds", "HDPE lined ponds", "Circular fish tanks", "Water inlet/outlet systems", "Drainage installation"],
-    // Real Kenyan fish pond
-    image: "https://images.pexels.com/photos/29994589/pexels-photo-29994589.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%282%29-BE1pYLURdl2B1tW7dkKjU1rFPmJM2T.jpeg",
   },
   {
     id: "greenhouse",
@@ -39,9 +38,9 @@ const allServices = [
     title: "Greenhouse Construction",
     shortDesc: "Modern greenhouse setups",
     fullDesc:
-      "Our greenhouse construction services deliver controlled-environment agriculture solutions, perfect for aquaponics and integrated farming. Durable and climate-adapted to Kenya.",
-    features: ["Aquaponics integration", "Climate control", "Irrigation integration", "Ventilation systems", "UV-resistant covering", "Custom sizes"],
-    image: "https://images.pexels.com/photos/35096090/pexels-photo-35096090.jpeg",
+      "Our greenhouse construction services deliver controlled-environment agriculture solutions, perfect for integrated farming and aquaponics in Kenya's varied climates.",
+    features: ["Aquaponics integration", "Climate control", "Drip irrigation setup", "Ventilation systems", "Shade net covering", "Custom sizes"],
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.03%20%281%29-RRycqnJlyAa0h0YVvOqVLvpc4wdZHg.jpeg",
   },
   {
     id: "drip-line",
@@ -49,9 +48,9 @@ const allServices = [
     title: "Drip Line Installation",
     shortDesc: "Efficient irrigation systems",
     fullDesc:
-      "Professional drip-line installation for optimal water distribution on your farm. Our systems reduce wastage and improve yields through precision, automated irrigation.",
+      "Professional drip-line installation for optimal water distribution on your farm. Our systems reduce water wastage by 60% while increasing crop yields through precision irrigation.",
     features: ["Precision water delivery", "Water-efficient systems", "Automated irrigation", "Timer systems", "Fertigation capability", "Maintenance support"],
-    image: "https://images.pexels.com/photos/10606633/pexels-photo-10606633.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.02-rlUKEtmaoYDFLmGpInNouhlK18joBt.jpeg",
   },
   {
     id: "plumbing",
@@ -59,9 +58,9 @@ const allServices = [
     title: "Water Farm Plumbing",
     shortDesc: "Complete plumbing solutions",
     fullDesc:
-      "Comprehensive plumbing for fish farms: water circulation, filtration setups, aeration systems, and drainage. Reliable water management for your aquaculture operations.",
+      "Comprehensive plumbing for fish farms: water circulation, filtration setups, aeration systems, and drainage. We ensure reliable water management for your aquaculture operations.",
     features: ["Water circulation", "Filtration installation", "Aeration systems", "Drainage solutions", "Pipe fitting & repairs", "Water storage tanks"],
-    image: "https://images.pexels.com/photos/28674471/pexels-photo-28674471.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%281%29-unTwv31FzdX4CquI5hqYhxqWgN7k6e.jpeg",
   },
   {
     id: "fingerlings",
@@ -69,9 +68,9 @@ const allServices = [
     title: "Fingerlings & Fish Feeds",
     shortDesc: "Quality fingerlings and feeds",
     fullDesc:
-      "We supply high-quality tilapia and catfish fingerlings bred to the highest standards, alongside premium feeds formulated for optimal growth, health, and productivity.",
+      "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions.",
     features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Fish supplements"],
-    image: "https://images.pexels.com/photos/27180320/pexels-photo-27180320.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.14.59%20%281%29-34lWyh9jVX3yKCbzXMQ7eSzfdZ8h3T.jpeg",
   },
   {
     id: "training",
@@ -79,9 +78,9 @@ const allServices = [
     title: "Fish Farming Training",
     shortDesc: "Comprehensive training programs",
     fullDesc:
-      "Professional training programs covering all aspects of aquaculture — from beginners to commercial operators. Learn pond management, feeding, water quality, disease prevention, and business management.",
-    features: ["Pond management", "Fish breeding", "Feeding techniques", "Water quality", "Disease prevention", "Business management"],
-    image: "https://images.pexels.com/photos/7509424/pexels-photo-7509424.jpeg",
+      "Hands-on training programs covering pond management, fish breeding, feeding protocols, water quality testing, disease prevention, and farm business management.",
+    features: ["Pond management", "Fish breeding", "Feeding techniques", "Water quality testing", "Disease prevention", "Business planning"],
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg",
   },
   {
     id: "consultancy",
@@ -89,9 +88,9 @@ const allServices = [
     title: "Aquaculture Consultancy",
     shortDesc: "Expert guidance and planning",
     fullDesc:
-      "Get professional advice on fish farm setup, commercial planning, feasibility studies, and production management. We help you make informed decisions for profitable operations.",
+      "Get professional advice on fish farm setup, commercial planning, feasibility studies, and production management tailored to your location and resources.",
     features: ["Fish farm setup", "Feasibility studies", "Production planning", "Water quality testing", "Farm expansion", "Profitability analysis"],
-    image: "https://images.pexels.com/photos/5806533/pexels-photo-5806533.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.06%20%282%29-JmmTVNTU6EMrfa39JoIA92mQ1lTcbc.jpeg",
   },
   {
     id: "equipment",
@@ -99,9 +98,9 @@ const allServices = [
     title: "Aquaculture Equipment",
     shortDesc: "Quality farming equipment",
     fullDesc:
-      "Supply and installation of essential aquaculture equipment — hapa nets, harvesting nets, air blowers, aeration systems, industrial basins, and hatchery equipment.",
-    features: ["Hapa nets", "Harvesting nets", "Air blower machines", "Air stones & pipes", "Industrial basins", "Hatchery systems"],
-    image: "https://images.pexels.com/photos/37360960/pexels-photo-37360960.jpeg",
+      "Supply and installation of essential aquaculture equipment — drip pipes, hapa nets, harvesting containers, air blowers, storage tanks, and hatchery systems.",
+    features: ["Drip irrigation pipes", "Harvesting nets", "Air blower machines", "Storage tanks", "Industrial basins", "Hatchery equipment"],
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%281%29-UT5h7ahzJc5bFWNyniLA2c4vEM0oV6.jpeg",
   },
   {
     id: "market-linkage",
@@ -109,9 +108,9 @@ const allServices = [
     title: "Market Linkage",
     shortDesc: "Connect with fish buyers",
     fullDesc:
-      "We connect fish farmers with reliable markets — hotels, restaurants, distributors, and export partners. Sell your fish at competitive prices with our established networks.",
-    features: ["Local market access", "Hotel partnerships", "Restaurant connections", "Distributor networks", "Export opportunities", "Contract farming"],
-    image: "https://images.pexels.com/photos/17931800/pexels-photo-17931800.jpeg",
+      "We connect fish farmers with reliable markets — hotels, restaurants, wholesalers, and traders. Sell your fish at fair prices with our established buyer network.",
+    features: ["Local market access", "Hotel partnerships", "Restaurant connections", "Trader networks", "Export support", "Contract farming"],
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%283%29-0FfKkFr07hlRDyvWNcUdzXrsgq4DPa.jpeg",
   },
 ];
 
@@ -127,7 +126,7 @@ export default function ServicesPage() {
       <section className="relative min-h-[65vh] flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/18072772/pexels-photo-18072772.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg"
             alt="Fish farm Kenya"
             fill
             className="object-cover scale-105"
@@ -270,7 +269,7 @@ export default function ServicesPage() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/6159078/pexels-photo-6159078.jpeg"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg"
             alt="Fish farming"
             fill
             className="object-cover"
