@@ -14,7 +14,7 @@ const projects = [
     title: "Kiambu Drip Irrigation Farm",
     location: "Kiambu County",
     type: "Drip System Installation",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.02-rlUKEtmaoYDFLmGpInNouhlK18joBt.jpeg",
+    image: "/images/gallery/drip-field.jpeg",
     description:
       "A 2-hectare vegetable farm in Kiambu transformed with modern drip irrigation. The system reduced water usage by 60% while increasing yield by 45% in the first season.",
     challenge:
@@ -38,7 +38,7 @@ const projects = [
     title: "Nakuru Fish Pond Development",
     location: "Nakuru County",
     type: "Fish Pond Construction",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%282%29-BE1pYLURdl2B1tW7dkKjU1rFPmJM2T.jpeg",
+    image: "/images/gallery/drip-line-1.jpeg",
     description:
       "Construction of a 0.5-hectare fish pond from site selection to first harvest. The farm now produces 2 tonnes of tilapia every 6 months with excellent market demand.",
     challenge:
@@ -62,7 +62,7 @@ const projects = [
     title: "Murang'a Greenhouse Aquaponics",
     location: "Murang'a County",
     type: "Greenhouse Construction",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.03%20%281%29-RRycqnJlyAa0h0YVvOqVLvpc4wdZHg.jpeg",
+    image: "/images/gallery/greenhouse-construction.jpeg",
     description:
       "An integrated aquaponics greenhouse where fish waste nutrients grow vegetables without synthetic fertilizers. The system produces both fresh fish and organic vegetables.",
     challenge:
@@ -86,7 +86,7 @@ const projects = [
     title: "Kisii Community Fish Farming Cooperative",
     location: "Kisii County",
     type: "Multiple Fish Ponds",
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg",
+    image: "/images/gallery/drip-line-2.jpeg",
     description:
       "A cooperative of 15 farmers developed 5 shared fish ponds with professional management. The cooperative now generates monthly income for all members while creating local employment.",
     challenge:
@@ -122,7 +122,7 @@ export default function ProjectsPage() {
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden pt-24">
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg"
+            src="/images/gallery/team-site.jpeg"
             alt="Farm projects"
             fill
             className="object-cover scale-105"

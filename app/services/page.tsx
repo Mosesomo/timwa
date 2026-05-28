@@ -30,7 +30,7 @@ const allServices = [
     fullDesc:
       "We specialise in constructing all types of fish ponds — earthen, concrete, lined, circular tanks, and raised ponds. Our expert team handles everything from site assessment to first harvest.",
     features: ["Earthen fish ponds", "Concrete fish ponds", "HDPE lined ponds", "Circular fish tanks", "Water inlet/outlet systems", "Drainage installation"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%282%29-BE1pYLURdl2B1tW7dkKjU1rFPmJM2T.jpeg",
+    image: "/images/gallery/drip-line-1.jpeg",
   },
   {
     id: "greenhouse",
@@ -40,7 +40,7 @@ const allServices = [
     fullDesc:
       "Our greenhouse construction services deliver controlled-environment agriculture solutions, perfect for integrated farming and aquaponics in Kenya's varied climates.",
     features: ["Aquaponics integration", "Climate control", "Drip irrigation setup", "Ventilation systems", "Shade net covering", "Custom sizes"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.03%20%281%29-RRycqnJlyAa0h0YVvOqVLvpc4wdZHg.jpeg",
+    image: "/images/gallery/greenhouse-construction.jpeg",
   },
   {
     id: "drip-line",
@@ -50,7 +50,7 @@ const allServices = [
     fullDesc:
       "Professional drip-line installation for optimal water distribution on your farm. Our systems reduce water wastage by 60% while increasing crop yields through precision irrigation.",
     features: ["Precision water delivery", "Water-efficient systems", "Automated irrigation", "Timer systems", "Fertigation capability", "Maintenance support"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.02-rlUKEtmaoYDFLmGpInNouhlK18joBt.jpeg",
+    image: "/images/gallery/drip-field.jpeg",
   },
   {
     id: "plumbing",
@@ -60,7 +60,7 @@ const allServices = [
     fullDesc:
       "Comprehensive plumbing for fish farms: water circulation, filtration setups, aeration systems, and drainage. We ensure reliable water management for your aquaculture operations.",
     features: ["Water circulation", "Filtration installation", "Aeration systems", "Drainage solutions", "Pipe fitting & repairs", "Water storage tanks"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%281%29-unTwv31FzdX4CquI5hqYhxqWgN7k6e.jpeg",
+    image: "/images/gallery/greenhouse-construction.jpeg",
   },
   {
     id: "fingerlings",
@@ -70,7 +70,7 @@ const allServices = [
     fullDesc:
       "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions.",
     features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Fish supplements"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.14.59%20%281%29-34lWyh9jVX3yKCbzXMQ7eSzfdZ8h3T.jpeg",
+    image: "/images/gallery/tilapia-fry.jpeg",
   },
   {
     id: "training",
@@ -80,7 +80,7 @@ const allServices = [
     fullDesc:
       "Hands-on training programs covering pond management, fish breeding, feeding protocols, water quality testing, disease prevention, and farm business management.",
     features: ["Pond management", "Fish breeding", "Feeding techniques", "Water quality testing", "Disease prevention", "Business planning"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg",
+    image: "/images/gallery/team-site.jpeg",
   },
   {
     id: "consultancy",
@@ -90,7 +90,7 @@ const allServices = [
     fullDesc:
       "Get professional advice on fish farm setup, commercial planning, feasibility studies, and production management tailored to your location and resources.",
     features: ["Fish farm setup", "Feasibility studies", "Production planning", "Water quality testing", "Farm expansion", "Profitability analysis"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.06%20%282%29-JmmTVNTU6EMrfa39JoIA92mQ1lTcbc.jpeg",
+    image: "/images/gallery/greenhouse-team.jpeg",
   },
   {
     id: "equipment",
@@ -100,7 +100,7 @@ const allServices = [
     fullDesc:
       "Supply and installation of essential aquaculture equipment — drip pipes, hapa nets, harvesting containers, air blowers, storage tanks, and hatchery systems.",
     features: ["Drip irrigation pipes", "Harvesting nets", "Air blower machines", "Storage tanks", "Industrial basins", "Hatchery equipment"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%281%29-UT5h7ahzJc5bFWNyniLA2c4vEM0oV6.jpeg",
+    image: "/images/gallery/equipment-storage.jpeg",
   },
   {
     id: "market-linkage",
@@ -110,7 +110,7 @@ const allServices = [
     fullDesc:
       "We connect fish farmers with reliable markets — hotels, restaurants, wholesalers, and traders. Sell your fish at fair prices with our established buyer network.",
     features: ["Local market access", "Hotel partnerships", "Restaurant connections", "Trader networks", "Export support", "Contract farming"],
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%283%29-0FfKkFr07hlRDyvWNcUdzXrsgq4DPa.jpeg",
+    image: "/images/gallery/fish-trucks.jpeg",
   },
 ];
 
@@ -126,7 +126,7 @@ export default function ServicesPage() {
       <section className="relative min-h-[65vh] flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg"
+            src="/images/gallery/drip-line-2.jpeg"
             alt="Fish farm Kenya"
             fill
             className="object-cover scale-105"
@@ -269,7 +269,7 @@ export default function ServicesPage() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg"
+            src="/images/gallery/team-site.jpeg"
             alt="Fish farming"
             fill
             className="object-cover"

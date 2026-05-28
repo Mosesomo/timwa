@@ -106,35 +106,35 @@ const whyUs = [
 
 const heroImages = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.05%20%282%29-BE1pYLURdl2B1tW7dkKjU1rFPmJM2T.jpeg",
+    src: "/images/gallery/drip-line-1.jpeg",
     alt: "Fish pond construction in Kenya",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg",
+    src: "/images/gallery/drip-line-2.jpeg",
     alt: "Fish farming operations in Kenya",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.02-rlUKEtmaoYDFLmGpInNouhlK18joBt.jpeg",
+    src: "/images/gallery/drip-field.jpeg",
     alt: "Drip irrigation system installation",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.03%20%281%29-RRycqnJlyAa0h0YVvOqVLvpc4wdZHg.jpeg",
+    src: "/images/gallery/greenhouse-construction.jpeg",
     alt: "Greenhouse construction in Kenya",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.14.59-mad64z54oKhUWEj4LdDaKwNK06JYDe.jpeg",
+    src: "/images/gallery/fish-catch.jpeg",
     alt: "Fish harvest and market preparation",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.06%20%282%29-JmmTVNTU6EMrfa39JoIA92mQ1lTcbc.jpeg",
+    src: "/images/gallery/greenhouse-team.jpeg",
     alt: "Team working in greenhouse facility",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg",
+    src: "/images/gallery/team-site.jpeg",
     alt: "Fish breeding and aquaculture operations",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.00-VZgsNjNuW99H7L5vdlnxJzDo7IGNNp.jpeg",
+    src: "/images/gallery/catfish.jpeg",
     alt: "Catfish and fish species farming",
   },
 ];
@@ -489,7 +489,7 @@ export default function HeroSection() {
               <div className="grid grid-cols-2 gap-3">
                 <div className="rounded-3xl overflow-hidden h-64 shadow-xl">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.07%20%282%29-nCDRUgFtxo2lgOtAEgkha6tHpuHTRw.jpeg"
+                    src="/images/gallery/drip-line-2.jpeg"
                     alt="Fish farming work in progress"
                     width={300}
                     height={256}
@@ -498,7 +498,7 @@ export default function HeroSection() {
                 </div>
                 <div className="rounded-3xl overflow-hidden h-64 shadow-xl mt-8">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-05-28%20at%2021.15.04%20%282%29-LNUel8y4UdsApsI6veFdezFY8JMtAr.jpeg"
+                    src="/images/gallery/team-site.jpeg"
                     alt="Fish breeding and production"
                     width={300}
                     height={256}
@@ -602,7 +602,7 @@ export default function HeroSection() {
         </div>
       </section>
 
-      {/* ── WHY CHOOSE US ────────────────────────────────────────── */}
+      {/* ── WHY CHOOSE US ���───────────────────────────────────────── */}
       <section className="py-24 bg-white overflow-hidden" ref={whyRef}>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
