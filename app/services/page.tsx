@@ -40,7 +40,7 @@ const allServices = [
     fullDesc:
       "Our greenhouse construction services deliver controlled-environment agriculture solutions, perfect for integrated farming and aquaponics in Kenya's varied climates.",
     features: ["Aquaponics integration", "Climate control", "Drip irrigation setup", "Ventilation systems", "Shade net covering", "Custom sizes"],
-    image: "/images/gallery/greenhouse-construction.jpeg",
+    image: "/images/gallery/team-2.jpeg",
   },
   {
     id: "drip-line",
@@ -60,7 +60,7 @@ const allServices = [
     fullDesc:
       "Comprehensive plumbing for fish farms: water circulation, filtration setups, aeration systems, and drainage. We ensure reliable water management for your aquaculture operations.",
     features: ["Water circulation", "Filtration installation", "Aeration systems", "Drainage solutions", "Pipe fitting & repairs", "Water storage tanks"],
-    image: "/images/gallery/greenhouse-construction.jpeg",
+    image: "/images/gallery/fish-plumbing.jpeg",
   },
   {
     id: "fingerlings",

@@ -15,7 +15,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer style={{ background: "#13134a" }} className="text-white">
+    <footer style={{ background: "#1e1e6e" }} className="text-white">
       {/* Top accent line */}
       <div className="w-full h-1" style={{ background: "linear-gradient(to right, #00b4d8, #1877F2, #25D366, #00b4d8)" }} />
 

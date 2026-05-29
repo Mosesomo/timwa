@@ -153,7 +153,7 @@ export default function AboutPage() {
               {/* Main image */}
               <div className="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-200">
                 <Image
-                  src="https://images.pexels.com/photos/35991863/pexels-photo-35991863.jpeg"
+                  src="/images/gallery/fish-catch.jpeg"
                   alt="Fish farming Kenya"
                   width={640}
                   height={460}
