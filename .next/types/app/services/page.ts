@@ -1,4 +1,4 @@
-// File: /home/moses/projects/website-redesign/app/services/page.tsx
+// File: /vercel/share/v0-project/app/services/page.tsx
 import * as entry from '../../../../app/services/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -83,21 +83,30 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-const schemaData = {
+const localBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "LocalBusiness"],
   name: "Timwa Fisheries",
   url: "https://timwafisheries.com",
   logo: "https://timwafisheries.com/images/timwa-logo.jpeg",
-  description: "Professional aquaculture and fish farming solutions in Kenya",
+  description: "Professional aquaculture and fish farming solutions in Kenya. We provide fish pond construction, tilapia and catfish farming, fingerlings, fish feeds, greenhouse construction, drip irrigation installation, and aquaculture training.",
   founder: {
     "@type": "Person",
     name: "Martin Nguri",
   },
   foundingDate: "2014",
-  areaServed: "KE",
+  areaServed: {
+    "@type": "Country",
+    name: "Kenya",
+  },
   telephone: "+254704460604",
   email: "info@timwafisheries.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Kisii",
+    addressLocality: "Kisii County",
+    addressCountry: "KE",
+  },
   sameAs: [
     "https://www.facebook.com/timwafisheries",
     "https://www.instagram.com/timwafisheries",
@@ -115,7 +124,7 @@ export default function RootLayout({
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
         />
       </head>
       <body className="font-sans antialiased">{children}</body>

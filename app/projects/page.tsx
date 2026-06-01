@@ -7,6 +7,32 @@ import { ArrowRight, CheckCircle2, TrendingUp, Users } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Case Studies | Timwa Fisheries - Fish Farming Success Stories Kenya",
+  description:
+    "Read our case studies of successful fish farming projects in Kenya. See real results from drip irrigation, fish pond construction, and aquaculture solutions.",
+  keywords: [
+    "fish farming case studies",
+    "aquaculture success stories",
+    "fish farming projects Kenya",
+    "drip irrigation results",
+    "fish pond construction case study",
+  ],
+  openGraph: {
+    title: "Case Studies | Timwa Fisheries Kenya",
+    description: "Real success stories from fish farming and aquaculture projects across Kenya.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fish Farming Case Studies",
+      },
+    ],
+  },
+};
 
 const projects = [
   {

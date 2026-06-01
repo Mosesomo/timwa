@@ -8,6 +8,32 @@ import { ChevronDown, ArrowRight, Target, Eye, Heart } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Timwa Fisheries | Fish Farming Kenya",
+  description:
+    "Learn about Timwa Fisheries, founded by Martin Nguri in 2014. We provide professional aquaculture solutions, training, and consultancy for fish farmers in Kenya. Over 10 years of experience in sustainable fish farming.",
+  keywords: [
+    "about Timwa Fisheries",
+    "Martin Nguri",
+    "fish farming Kenya",
+    "aquaculture solutions Kenya",
+    "fish farming training",
+  ],
+  openGraph: {
+    title: "About Timwa Fisheries | Fish Farming Solutions Kenya",
+    description: "Professional aquaculture company with 10+ years of experience providing fish farming solutions in Kenya.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Timwa Fisheries - About Us",
+      },
+    ],
+  },
+};
 
 const values = [
   {
@@ -53,7 +79,7 @@ export default function AboutPage() {
         <div className="absolute inset-0">
           {/* Kenyan tilapia fish farm / pond image */}
           <Image
-            src="https://images.pexels.com/photos/11035625/pexels-photo-11035625.jpeg"
+            src="/images/gallery/drip-line-1.jpeg"
             alt="Fish farming Kenya"
             fill
             className="object-cover scale-105"
@@ -153,7 +179,7 @@ export default function AboutPage() {
               {/* Main image */}
               <div className="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-gray-200">
                 <Image
-                  src="https://images.pexels.com/photos/35991863/pexels-photo-35991863.jpeg"
+                  src="/images/gallery/team-site.jpeg"
                   alt="Fish farming Kenya"
                   width={640}
                   height={460}
@@ -255,7 +281,7 @@ export default function AboutPage() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/9743471/pexels-photo-9743471.jpeg"
+            src="/images/gallery/drip-field.jpeg"
             alt="Fish farming"
             fill
             className="object-cover"

@@ -20,6 +20,36 @@ import {
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+import type { Metadata } from "next";
+import { serviceSchema } from "@/lib/schema";
+
+export const metadata: Metadata = {
+  title: "Aquaculture Services Kenya | Timwa Fisheries",
+  description:
+    "Complete aquaculture services including fish pond construction, greenhouse construction, drip irrigation, fish feeds, fingerlings, training, and market linkage. Serving Kenya's fish farmers.",
+  keywords: [
+    "fish pond construction Kenya",
+    "aquaculture services Kenya",
+    "fish farming services",
+    "greenhouse construction",
+    "drip line installation",
+    "fish fingerlings",
+    "fish feeds Kenya",
+    "aquaculture training",
+  ],
+  openGraph: {
+    title: "Aquaculture Services | Timwa Fisheries Kenya",
+    description: "Professional fish farming services including pond construction, training, and market linkage.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Aquaculture Services",
+      },
+    ],
+  },
+};
 
 const allServices = [
   {
@@ -120,6 +150,24 @@ export default function ServicesPage() {
 
   return (
     <main className="bg-white">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "CollectionPage",
+              name: "Aquaculture Services",
+              description: "Professional fish farming and aquaculture services in Kenya",
+              provider: {
+                "@type": "LocalBusiness",
+                name: "Timwa Fisheries",
+                url: "https://timwafisheries.com",
+              },
+            }),
+          }}
+        />
+      </head>
       <Navbar />
 
       {/* ── Hero ─────────────────────────────────────────────── */}

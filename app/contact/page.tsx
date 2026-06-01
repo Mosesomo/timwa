@@ -16,6 +16,31 @@ import {
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact Timwa Fisheries | Fish Farming Solutions Kenya",
+  description:
+    "Get in touch with Timwa Fisheries for fish farming consultancy, pond construction, and aquaculture services in Kenya. Call +254 704 460604 or email info@timwafisheries.com",
+  keywords: [
+    "contact Timwa Fisheries",
+    "fish farming consultation Kenya",
+    "aquaculture services contact",
+    "fish farm design Kenya",
+  ],
+  openGraph: {
+    title: "Contact Timwa Fisheries | Fish Farming Kenya",
+    description: "Contact us for professional aquaculture and fish farming services in Kenya.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Contact Timwa Fisheries",
+      },
+    ],
+  },
+};
 
 const contactInfo = [
   {
@@ -187,7 +212,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* ── Form Section ──────────────────────────────────��────── */}
+      {/* ── Form Section ──────────────────────────────────���────── */}
       <section id="contact-form" className="py-24 bg-white" ref={formRef}>
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-14 items-start">

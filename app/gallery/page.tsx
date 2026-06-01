@@ -8,6 +8,32 @@ import { ArrowRight, X } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gallery | Timwa Fisheries - Fish Farming Projects Kenya",
+  description:
+    "View our gallery of fish farming projects, aquaculture facilities, drip irrigation systems, and greenhouse construction in Kenya. Professional aquaculture solutions in action.",
+  keywords: [
+    "fish farming gallery",
+    "aquaculture projects Kenya",
+    "fish pond projects",
+    "greenhouse construction projects",
+    "drip irrigation systems Kenya",
+  ],
+  openGraph: {
+    title: "Gallery | Timwa Fisheries Kenya",
+    description: "Gallery of professional fish farming and aquaculture projects in Kenya.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Fish Farming Gallery",
+      },
+    ],
+  },
+};
 
 interface GalleryImage {
   id: string;
