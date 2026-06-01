@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     description: "Professional aquaculture services including fish pond construction, farming consultancy, and training.",
     images: [
       {
-        url: "https://timwafisheries.com/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Timwa Fisheries - Fish Farming Kenya",
