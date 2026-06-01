@@ -9,6 +9,23 @@ export const metadata: Metadata = {
     title: "Case Studies | Fish Farming Success Stories",
     description: "Real case studies of successful fish farming projects across Kenya",
     type: "website",
+    url: "https://timwafisheries.com/projects",
+  },
+};
+
+const projectsSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Fish Farming Case Studies",
+  description: "Real case studies of successful fish farming projects across Kenya",
+  url: "https://timwafisheries.com/projects",
+  mainEntity: {
+    "@type": "LocalBusiness",
+    name: "Timwa Fisheries",
+    image: "https://timwafisheries.com/images/timwa-logo.jpeg",
+    description: "Professional aquaculture solutions with proven results",
+    telephone: "+254704460604",
+    url: "https://timwafisheries.com",
   },
 };
 
@@ -17,5 +34,13 @@ export default function ProjectsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(projectsSchema) }}
+      />
+      {children}
+    </>
+  );
 }
