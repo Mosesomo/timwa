@@ -4,23 +4,10 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import type { Metadata } from "next";
 import { ArrowRight, X } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
-
-export const metadata: Metadata = {
-  title: "Gallery | Timwa Fisheries Fish Farming Projects Kenya",
-  description:
-    "View our fish farming projects gallery - aquaculture operations, drip irrigation systems, greenhouses, and equipment from farms across Kenya.",
-  keywords: ["fish farming gallery", "aquaculture projects Kenya", "fish ponds", "fish farming photos"],
-  openGraph: {
-    title: "Gallery | Fish Farming Projects",
-    description: "Explore our completed fish farming projects and aquaculture solutions",
-    type: "website",
-  },
-};
 
 interface GalleryImage {
   id: string;
