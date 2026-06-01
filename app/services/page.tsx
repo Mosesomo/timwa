@@ -21,7 +21,7 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
 import type { Metadata } from "next";
-import { serviceSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Aquaculture Services Kenya | Timwa Fisheries",

@@ -121,7 +121,7 @@ export default function ContactPage() {
       <section className="relative min-h-[62vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.pexels.com/photos/10606633/pexels-photo-10606633.jpeg"
+            src="/images/gallery/greenhouse-construction.jpeg"
             alt="Fish farming in Kenya"
             fill
             className="object-cover scale-105"

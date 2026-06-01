@@ -5,53 +5,78 @@ export const serviceSchema = [
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Fish Pond Construction",
-    description: "Professional fish pond construction services including earthen, concrete, lined, and circular tank ponds.",
+    description: "Professional fish pond construction services including earthen, concrete, lined, and circular tank ponds across Kenya.",
     provider: {
       "@type": "LocalBusiness",
       name: "Timwa Fisheries",
       url: "https://timwafisheries.com",
+      telephone: "+254704460604",
+      address: {
+        "@type": "PostalAddress",
+        addressCountry: "KE",
+        addressLocality: "Kisii County"
+      }
     },
-    areaServed: "KE",
-    image: "https://timwafisheries.com/images/gallery/drip-line-1.jpeg",
+    areaServed: {
+      "@type": "Country",
+      name: "KE"
+    },
+    image: "/images/gallery/drip-line-1.jpeg",
+    priceRange: "Custom quotes available"
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Greenhouse Construction",
-    description: "Modern greenhouse construction for aquaponics and integrated farming in Kenya.",
+    description: "Modern greenhouse construction for aquaponics and integrated farming in Kenya's varied climates.",
     provider: {
       "@type": "LocalBusiness",
       name: "Timwa Fisheries",
       url: "https://timwafisheries.com",
+      telephone: "+254704460604"
     },
-    areaServed: "KE",
-    image: "https://timwafisheries.com/images/gallery/greenhouse-construction.jpeg",
+    areaServed: {
+      "@type": "Country",
+      name: "KE"
+    },
+    image: "/images/gallery/greenhouse-construction.jpeg",
+    priceRange: "Custom quotes available"
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Drip Line Installation",
-    description: "Professional drip irrigation system installation for water-efficient farming.",
+    description: "Professional drip irrigation system installation for water-efficient farming. Reduces water wastage by 60%.",
     provider: {
       "@type": "LocalBusiness",
       name: "Timwa Fisheries",
       url: "https://timwafisheries.com",
+      telephone: "+254704460604"
     },
-    areaServed: "KE",
-    image: "https://timwafisheries.com/images/gallery/drip-field.jpeg",
+    areaServed: {
+      "@type": "Country",
+      name: "KE"
+    },
+    image: "/images/gallery/drip-field.jpeg",
+    priceRange: "Custom quotes available"
   },
   {
     "@context": "https://schema.org",
     "@type": "Service",
     name: "Fish Farming Training",
-    description: "Comprehensive hands-on training in fish pond management, breeding, and business management.",
+    description: "Comprehensive hands-on training in fish pond management, breeding, feeding, water quality, disease prevention, and business management.",
     provider: {
       "@type": "LocalBusiness",
       name: "Timwa Fisheries",
       url: "https://timwafisheries.com",
+      telephone: "+254704460604"
     },
-    areaServed: "KE",
-    image: "https://timwafisheries.com/images/gallery/team-site.jpeg",
+    areaServed: {
+      "@type": "Country",
+      name: "KE"
+    },
+    image: "/images/gallery/team-site.jpeg",
+    educationalLevel: "Beginner to Commercial Operators"
   },
 ];
 
