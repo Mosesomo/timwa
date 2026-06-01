@@ -5,9 +5,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, useInView } from "framer-motion";
 import { ChevronDown, ArrowRight, Target, Eye, Heart } from "lucide-react";
+import type { Metadata } from "next";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
+
+export const metadata: Metadata = {
+  title: "About Timwa Fisheries | Fish Farming Solutions Since 2014",
+  description:
+    "Learn about Timwa Fisheries - a leading aquaculture company in Kenya founded in 2014. Discover our mission, vision, and 10+ years of experience in professional fish farming.",
+  keywords: ["about timwa fisheries", "fish farming company Kenya", "aquaculture services", "Martin Nguri"],
+  openGraph: {
+    title: "About Timwa Fisheries | Fish Farming Solutions",
+    description: "Discover our journey, mission, and expertise in aquaculture",
+    type: "website",
+  },
+};
 
 const values = [
   {

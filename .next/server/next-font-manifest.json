@@ -1,15 +1,6 @@
 {
   "app": {
-    "[project]/app/gallery/page": [
-      "static/media/81cef6a21128489e-s.p.6cf41120.woff2"
-    ],
     "[project]/app/page": [
-      "static/media/81cef6a21128489e-s.p.6cf41120.woff2"
-    ],
-    "[project]/app/projects/page": [
-      "static/media/81cef6a21128489e-s.p.6cf41120.woff2"
-    ],
-    "[project]/app/services/page": [
       "static/media/81cef6a21128489e-s.p.6cf41120.woff2"
     ]
   },

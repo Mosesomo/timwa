@@ -10,30 +10,99 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Timwa Fisheries | Professional Aquaculture & Fish Farming Solutions in Kenya",
+  title: "Timwa Fisheries | Fish Farming Solutions Kenya - Aquaculture & Pond Construction",
   description:
-    "Timwa Fisheries provides fish pond construction, fish farming consultancy, fish feeds, fingerlings, fish farming training, hatchery systems, and complete aquaculture solutions in Kenya.",
+    "Timwa Fisheries Kenya offers fish pond construction, tilapia & catfish farming, fish feeds, fingerlings, greenhouse construction, drip irrigation, and aquaculture training. Over 10 years of expertise in sustainable fish farming.",
   icons: {
     icon: "/images/timwa-logo.jpeg",
   },
   keywords: [
+    "timwa fisheries",
     "fish farming Kenya",
-    "aquaculture",
-    "fish pond construction",
-    "fingerlings",
-    "fish feeds",
+    "aquaculture Kenya",
+    "fish pond construction Kenya",
     "tilapia farming",
-    "catfish farming",
-    "greenhouse construction",
-    "drip line installation",
-    "water farm plumbing",
+    "catfish farming Kenya",
+    "fish fingerlings Kenya",
+    "greenhouse construction Kenya",
+    "drip line installation Kenya",
+    "fish farming training",
+    "aquaculture solutions",
+    "fish feeds Kenya",
+    "fisheries",
   ],
+  authors: [{ name: "Timwa Fisheries" }],
+  creator: "Timwa Fisheries",
+  publisher: "Timwa Fisheries",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_KE",
+    url: "https://timwafisheries.com",
+    siteName: "Timwa Fisheries",
+    title: "Timwa Fisheries | Fish Farming Solutions Kenya",
+    description: "Professional aquaculture services including fish pond construction, farming consultancy, and training.",
+    images: [
+      {
+        url: "https://timwafisheries.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Timwa Fisheries - Fish Farming Kenya",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Timwa Fisheries | Fish Farming Solutions Kenya",
+    description: "Professional aquaculture services for fish farming in Kenya",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://timwafisheries.com",
+  },
 };
 
 export const viewport: Viewport = {
   themeColor: "#1e1e6e",
   width: "device-width",
   initialScale: 1,
+  colorScheme: "light",
+};
+
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Timwa Fisheries",
+  url: "https://timwafisheries.com",
+  logo: "https://timwafisheries.com/images/timwa-logo.jpeg",
+  description: "Professional aquaculture and fish farming solutions in Kenya",
+  founder: {
+    "@type": "Person",
+    name: "Martin Nguri",
+  },
+  foundingDate: "2014",
+  areaServed: "KE",
+  telephone: "+254704460604",
+  email: "info@timwafisheries.com",
+  sameAs: [
+    "https://www.facebook.com/timwafisheries",
+    "https://www.instagram.com/timwafisheries",
+    "https://www.twitter.com/timwafisheries",
+  ],
 };
 
 export default function RootLayout({
@@ -43,6 +112,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={jost.variable}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
+      </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
   );
