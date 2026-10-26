@@ -14,9 +14,9 @@ const projects = [
     title: "Kiambu Drip Irrigation Farm",
     location: "Kiambu County",
     type: "Drip System Installation",
-    image: "/images/gallery/drip-field.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img8-8LHopvSQnqDNahy6Pxu6xhhKhfkxLf.jpg",
     description:
-      "A 2-hectare vegetable farm in Kiambu transformed with modern drip irrigation. The system reduced water usage by 60% while increasing yield by 45% in the first season.",
+      "A community growing site prepared with shared labor and practical soil-bed planning. The project shows how productive urban agriculture can bring farmers together while making better use of limited land.",
     challenge:
       "The farm was struggling with inconsistent water distribution and high water bills. Traditional flooding irrigation was inefficient and draining their budget.",
     solution:
@@ -38,9 +38,9 @@ const projects = [
     title: "Nakuru Fish Pond Development",
     location: "Nakuru County",
     type: "Fish Pond Construction",
-    image: "/images/gallery/drip-line-1.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-JYi5NLp7EbtdBWyu6rK8BNUVayuQwj.jpg",
     description:
-      "Construction of a 0.5-hectare fish pond from site selection to first harvest. The farm now produces 2 tonnes of tilapia every 6 months with excellent market demand.",
+      "A hands-on community farm build where growers worked together to prepare raised beds and establish a productive urban growing space.",
     challenge:
       "The farmer had land but no expertise in pond construction. They were concerned about water quality, fish health, and whether aquaculture would be profitable in their area.",
     solution:
@@ -62,9 +62,9 @@ const projects = [
     title: "Murang'a Greenhouse Aquaponics",
     location: "Murang'a County",
     type: "Greenhouse Construction",
-    image: "/images/gallery/greenhouse-construction.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-NPuuqVeMEBNZDsLyNHO8ictR48AmdK.jpg",
     description:
-      "An integrated aquaponics greenhouse where fish waste nutrients grow vegetables without synthetic fertilizers. The system produces both fresh fish and organic vegetables.",
+      "A lined pond and filtration installation designed to keep water cleaner and circulation reliable for a healthier aquaculture operation.",
     challenge:
       "The farmer wanted year-round vegetable production but faced seasonal water scarcity and high fertilizer costs. They wanted a sustainable, integrated approach.",
     solution:
@@ -86,9 +86,9 @@ const projects = [
     title: "Kisii Community Fish Farming Cooperative",
     location: "Kisii County",
     type: "Multiple Fish Ponds",
-    image: "/images/gallery/drip-line-2.jpeg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img7-8QbJHYRF4N7xnpeZweFXMilTqqkdyB.jpg",
     description:
-      "A cooperative of 15 farmers developed 5 shared fish ponds with professional management. The cooperative now generates monthly income for all members while creating local employment.",
+      "On-site support for a community fish-farming project, with the team checking lined ponds and helping farmers move from setup toward production.",
     challenge:
       "Individual farmers had limited land and capital. They needed a cooperative model but lacked expertise in collaborative farm management and fish production.",
     solution:

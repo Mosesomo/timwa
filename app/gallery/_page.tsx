@@ -18,6 +18,14 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
+  { id: "community-1", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img1-JYi5NLp7EbtdBWyu6rK8BNUVayuQwj.jpg", alt: "Community members preparing raised garden beds", category: "Team", title: "Community Garden Preparation" },
+  { id: "community-2", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img2-jzh1biGbwcfHkrSdz8wr3Hl6DV3cgY.jpg", alt: "Fish fry swimming in a nursery container", category: "Aquaculture", title: "Healthy Fish Fry" },
+  { id: "community-3", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img3-PGFM4hr0E4Uemk135B6eUEMvGWn1Zn.jpg", alt: "Close view of young fish fry for stocking", category: "Aquaculture", title: "Fingerling Development" },
+  { id: "community-4", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-NPuuqVeMEBNZDsLyNHO8ictR48AmdK.jpg", alt: "Water filtration equipment beside a lined fish pond", category: "Equipment", title: "Water Filtration Setup" },
+  { id: "community-5", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img5-AHfwWy2gvgCxhzVAfMwWjQ6l5cTiYs.jpg", alt: "Bagged aquaculture supplies prepared for delivery", category: "Equipment", title: "Aquaculture Supplies" },
+  { id: "community-6", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img6-903ckb07WTRnVAg9x0wVKNJwFnSJVG.jpg", alt: "Team member standing inside a lined fish pond", category: "Team", title: "Pond Installation Progress" },
+  { id: "community-7", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img7-8QbJHYRF4N7xnpeZweFXMilTqqkdyB.jpg", alt: "Fish pond team member checking a lined pond", category: "Team", title: "On-Site Farm Support" },
+  { id: "community-8", src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img8-8LHopvSQnqDNahy6Pxu6xhhKhfkxLf.jpg", alt: "Farmers working together to prepare productive soil beds", category: "Team", title: "Growing Together" },
   { id: "1",  src: "/images/gallery/drip-line-1.jpeg",       alt: "Fish pond construction",          category: "Aquaculture",  title: "Pond Development"          },
   { id: "2",  src: "/images/gallery/drip-line-2.jpeg",       alt: "Fish farming in Kenya",           category: "Aquaculture",  title: "Aquaculture Work"          },
   { id: "3",  src: "/images/gallery/fish-catch.jpeg",        alt: "Fish harvest tilapia",            category: "Aquaculture",  title: "Tilapia Harvest"           },
