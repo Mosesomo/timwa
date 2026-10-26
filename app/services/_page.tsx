@@ -30,7 +30,7 @@ const allServices = [
     fullDesc:
       "We specialise in constructing all types of fish ponds — earthen, concrete, lined, circular tanks, and raised ponds. Our expert team handles everything from site assessment to first harvest.",
     features: ["Earthen fish ponds", "Concrete fish ponds", "HDPE lined ponds", "Circular fish tanks", "Water inlet/outlet systems", "Drainage installation"],
-    image: "/images/gallery/drip-line-1.jpeg",
+    image: "/images/gallery/img6.jpg",
   },
   {
     id: "greenhouse",
@@ -70,7 +70,7 @@ const allServices = [
     fullDesc:
       "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions.",
     features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Fish supplements"],
-    image: "/images/gallery/tilapia-fry.jpeg",
+    image: "/images/gallery/img4.jpg",
   },
   {
     id: "training",
