@@ -127,7 +127,7 @@ const heroImages = [
   },
   {
     src: "/images/gallery/greenhouse-team.jpeg",
-    alt: "Team working in greenhouse facility",
+    alt: "Farm team at an aquaculture site",
   },
   {
     src: "/images/gallery/team-site.jpeg",
@@ -135,7 +135,7 @@ const heroImages = [
   },
   {
     src: "/images/gallery/catfish.jpeg",
-    alt: "Catfish and fish species farming",
+    alt: "Farm worker installing an Appa net",
   },
 ];
 

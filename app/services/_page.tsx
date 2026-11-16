@@ -70,7 +70,7 @@ const allServices = [
     fullDesc:
       "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions.",
     features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Fish supplements"],
-    image: "/images/gallery/img4.jpg",
+    image: "/images/gallery/catfish-fry.jpeg",
   },
   {
     id: "training",
