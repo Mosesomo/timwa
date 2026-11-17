@@ -33,20 +33,20 @@ const services = [
     accent: "#00b4d8",
   },
   {
-    icon: Sprout,
-    title: "Greenhouse Construction",
+    icon: Droplets,
+    title: "Pond Preparation & Dam Liners",
     description:
-      "Modern greenhouse setups for controlled environment agriculture and aquaponics systems.",
-    link: "/services#greenhouse",
-    accent: "#52b788",
+      "Site preparation, pond shaping, and quality dam liner installation for water retention and healthy fish growth.",
+    link: "/services#pond-construction",
+    accent: "#4895ef",
   },
   {
-    icon: Droplets,
-    title: "Drip Line Installation",
+    icon: ShieldCheck,
+    title: "Shednet & Birdnet Ponds",
     description:
-      "Efficient irrigation systems for optimal water distribution and farm productivity.",
-    link: "/services#drip-line",
-    accent: "#4895ef",
+      "Shednet and birdnet pond covers that protect fish from predators and harsh sun, using durable Appa net.",
+    link: "/services#equipment",
+    accent: "#52b788",
   },
   {
     icon: Wrench,
@@ -60,7 +60,7 @@ const services = [
     icon: Fish,
     title: "Fingerlings & Fish Feeds",
     description:
-      "Quality tilapia and catfish fingerlings with premium fish feeds for optimal growth.",
+      "Quality tilapia and catfish fingerlings with premium feeds, including Azolla as a low-cost fish feed supplement.",
     link: "/services#fingerlings",
     accent: "#00b4d8",
   },
@@ -68,7 +68,7 @@ const services = [
     icon: GraduationCap,
     title: "Fish Farming Training",
     description:
-      "Comprehensive training programs covering all aspects of modern fish farming.",
+      "Comprehensive training programs covering pond management, feeding, water quality, and modern fish farming.",
     link: "/services#training",
     accent: "#9b5de5",
   },
