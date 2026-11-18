@@ -59,26 +59,26 @@ const projects = [
   },
   {
     id: 3,
-    title: "Murang'a Greenhouse Aquaponics",
+    title: "Fish Pond with Shednet & Birdnet",
     location: "Murang'a County",
-    type: "Greenhouse Construction",
+    type: "Covered Fish Pond",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/img4-NPuuqVeMEBNZDsLyNHO8ictR48AmdK.jpg",
     description:
-      "A lined pond and filtration installation designed to keep water cleaner and circulation reliable for a healthier aquaculture operation.",
+      "A fish pond covered with shednet and birdnet for aquaculture. This is a net-covered fish pond, not a greenhouse fish pond.",
     challenge:
-      "The farmer wanted year-round vegetable production but faced seasonal water scarcity and high fertilizer costs. They wanted a sustainable, integrated approach.",
+      "The project required a suitable cover for the fish pond.",
     solution:
-      "We designed and built a greenhouse aquaponics system combining fish farming with vegetable production. Fish nutrients cycle through the system, eliminating the need for commercial fertilizers.",
+      "The fish pond is covered with shednet and birdnet. It is not a greenhouse fish pond.",
     results: [
-      "Year-round vegetable production",
-      "90% reduction in fertilizer costs",
-      "Fish harvest: 400kg every 4 months",
-      "Vegetable yield: 3 tonnes per season",
+      "Shednet cover over the fish pond",
+      "Birdnet cover over the fish pond",
+      "Aquaculture pond correctly identified",
+      "Not a greenhouse fish pond",
     ],
     testimonial: {
-      name: "Peter Murigi",
-      role: "Integrated Farmer",
-      text: "This aquaponics system is magical. I'm growing vegetables and raising fish in the same space. No commercial fertilizers needed, and everything is organic. My customers pay premium prices.",
+      name: "Project feature",
+      role: "Aquaculture",
+      text: "A fish pond covered with shednet and birdnet.",
     },
   },
   {
