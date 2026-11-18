@@ -12,7 +12,7 @@ import {
   Users,
   Award,
   Building2,
-  Sprout,
+  ShieldCheck,
   Wrench,
   GraduationCap,
   Phone,
