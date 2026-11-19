@@ -8,7 +8,7 @@ import {
   ChevronDown,
   ArrowRight,
   Building2,
-  Sprout,
+  ClipboardCheck,
   Droplets,
   Wrench,
   Fish,
@@ -29,28 +29,28 @@ const allServices = [
     shortDesc: "Expert pond construction services",
     fullDesc:
       "We specialise in constructing all types of fish ponds — earthen, concrete, lined, circular tanks, and raised ponds. Our expert team handles everything from site assessment to first harvest.",
-    features: ["Earthen fish ponds", "Concrete fish ponds", "HDPE lined ponds", "Circular fish tanks", "Water inlet/outlet systems", "Drainage installation"],
+    features: ["Earthen fish ponds", "Concrete fish ponds", "Dam liner ponds", "Circular fish tanks", "Water inlet/outlet systems", "Drainage installation"],
     image: "/images/gallery/img6.jpg",
   },
   {
-    id: "greenhouse",
-    icon: Sprout,
-    title: "Greenhouse Construction",
-    shortDesc: "Modern greenhouse setups",
+    id: "pond-preparation",
+    icon: Droplets,
+    title: "Pond Preparation & Dam Liners",
+    shortDesc: "Site preparation and liner installation",
     fullDesc:
-      "Our greenhouse construction services deliver controlled-environment agriculture solutions, perfect for integrated farming and aquaponics in Kenya's varied climates.",
-    features: ["Aquaponics integration", "Climate control", "Drip irrigation setup", "Ventilation systems", "Shade net covering", "Custom sizes"],
-    image: "/images/gallery/team-2.jpeg",
+      "Proper preparation is the foundation of a productive fish pond. We excavate and shape the pond, level and compact the base, and install quality dam liners so your pond holds water and is ready for stocking.",
+    features: ["Site assessment", "Excavation & shaping", "Base levelling", "Dam liner installation", "Liner repairs", "Pond filling & setup"],
+    image: "/images/gallery/drip-line-1.jpeg",
   },
   {
-    id: "drip-line",
-    icon: Droplets,
-    title: "Drip Line Installation",
-    shortDesc: "Efficient irrigation systems",
+    id: "pond-protection",
+    icon: ShieldCheck,
+    title: "Shednet & Birdnet Ponds",
+    shortDesc: "Protective pond covers",
     fullDesc:
-      "Professional drip-line installation for optimal water distribution on your farm. Our systems reduce water wastage by 60% while increasing crop yields through precision irrigation.",
-    features: ["Precision water delivery", "Water-efficient systems", "Automated irrigation", "Timer systems", "Fertigation capability", "Maintenance support"],
-    image: "/images/gallery/drip-field.jpeg",
+      "We install shednet and birdnet covers over fish ponds using durable Appa net. They protect your fish from birds and other predators and reduce the effects of harsh sun and heat.",
+    features: ["Shednet covers", "Birdnet covers", "Appa net supply", "Support frame installation", "Predator protection", "Sun and heat shading"],
+    image: "/images/gallery/greenhouse-structure.jpeg",
   },
   {
     id: "plumbing",
@@ -68,8 +68,8 @@ const allServices = [
     title: "Fingerlings & Fish Feeds",
     shortDesc: "Quality fingerlings and feeds",
     fullDesc:
-      "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions.",
-    features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Fish supplements"],
+      "We supply certified tilapia and catfish fingerlings from quality breeding stock, alongside formulated fish feeds designed for Kenya's climate and water conditions. We also guide farmers on growing Azolla as a low-cost supplementary fish feed.",
+    features: ["Tilapia fingerlings", "Catfish fingerlings", "Starter feeds", "Grower feeds", "Finisher feeds", "Azolla as fish feed"],
     image: "/images/gallery/catfish-fry.jpeg",
   },
   {
@@ -84,13 +84,13 @@ const allServices = [
   },
   {
     id: "consultancy",
-    icon: ShieldCheck,
+    icon: ClipboardCheck,
     title: "Aquaculture Consultancy",
     shortDesc: "Expert guidance and planning",
     fullDesc:
       "Get professional advice on fish farm setup, commercial planning, feasibility studies, and production management tailored to your location and resources.",
     features: ["Fish farm setup", "Feasibility studies", "Production planning", "Water quality testing", "Farm expansion", "Profitability analysis"],
-    image: "/images/gallery/greenhouse-team.jpeg",
+    image: "/images/gallery/team-2.jpeg",
   },
   {
     id: "equipment",
@@ -98,8 +98,8 @@ const allServices = [
     title: "Aquaculture Equipment",
     shortDesc: "Quality farming equipment",
     fullDesc:
-      "Supply and installation of essential aquaculture equipment — drip pipes, hapa nets, harvesting containers, air blowers, storage tanks, and hatchery systems.",
-    features: ["Drip irrigation pipes", "Harvesting nets", "Air blower machines", "Storage tanks", "Industrial basins", "Hatchery equipment"],
+      "Supply and installation of essential aquaculture equipment — dam liners, Appa net, hapa nets, harvesting containers, air blowers, storage tanks, and hatchery systems.",
+    features: ["Dam liners", "Appa net", "Harvesting nets", "Air blower machines", "Storage tanks", "Hatchery equipment"],
     image: "/images/gallery/equipment-storage.jpeg",
   },
   {
